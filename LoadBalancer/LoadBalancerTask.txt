@@ -1,0 +1,6 @@
+1) Configure Classic Load balancer.
+2) Configure Application Load balancer.
+3) Configure Network Load balancer.
+4) Attach SSL for application load balancer.
+5) Map Applciation load balancer to R53.
+6) Push the application load balancer logs to s3.
