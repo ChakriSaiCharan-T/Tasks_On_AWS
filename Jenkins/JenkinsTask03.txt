@@ -1,0 +1,11 @@
+1) Create one jenkins job using the below code and create three stages.
+stage1: Git clone to download the source code.
+stage2: Sonarqube Integration to check the quality of code
+stage3: Slack Integration to send the alerts to slack.
+URL: https://github.com/betawins/VProfile-1.git
+
+2) 1) Create one jenkins job using the below code and create three stages.
+stage1: Git clone to download the source code.
+stage2: Sonarqube Integration to check the quality of code
+stage3: Slack Integration to send the alerts to slack.
+URL: https://github.com/betawins/hiring-app.git

@@ -1,0 +1,7 @@
+1) Install jenkins and run jenkins on port number 8081.
+2) Secure Jenkins server
+3) Create users called Devops, Testing in Jenkins with Limited access.
+4) Configure labels and restrict the jobs to execute based on label only.
+5) Create Three sample jobs using the below URL.
+   https://github.com/betawins/Techie_horizon_Login_app.git
+6) Create one jenkins job using git hub Private repository.   

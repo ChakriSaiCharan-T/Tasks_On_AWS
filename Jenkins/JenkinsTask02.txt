@@ -1,0 +1,6 @@
+1) Configure 2 slave machines in jenkins master.
+2) Configure webhooks to jenkins job.
+3) Configure poll scm and build periodical options in jenkins job.
+4) Take backup of jenkins server by using bash script. 
+5) Take backup of jenkins using rethin backup plugin.
+6) Setup a new jenkins server and dump the backup taken in task4.
