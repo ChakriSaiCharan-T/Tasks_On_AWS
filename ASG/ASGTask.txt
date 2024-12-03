@@ -1,0 +1,13 @@
+1) Create one vpc in N.virginia region.
+2) Create two subnets.
+   One Public subnet and one private subnet.
+3) Provide the IGW to the vpc.
+4) Create One public RT and one private RT.
+5) Deploy NAT gateway on public subnet and attach the NAT gatewat to private subnet.
+6) Create Two instances,one in public subnet and one in private subnet.
+7) Deploy Apache server on both the ec2 instances with sample index.html file.
+8) Create one application load balancer and attach the load balancer to both the ec2 instances.
+9) Store Application load balancer logs to s3.
+10) Store the vpc flow logs to cloudwtach group.
+11) Create Monitoring Dashboards to monitor cpu utilization and to monitor apache service.
+12) CPU utilizationis more than 70% then it should triggere Autoscaling and launch new instance.
