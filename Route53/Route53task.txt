@@ -1,0 +1,7 @@
+1) Configure VPC peering in cross regions.(Need to do this again)
+2) Purchase one domain from GoDaddy.
+3) Deploy static website in s3.
+4) Create CDN and attach one SSL certificate.
+5) Create Route53 hosted zone and MAP the domain with CDN.
+6) Update the index.html in s3 bucket and the updated file should be accessible by using domain name. 
+7) Share the Domain name in slack to test the connectivity.
