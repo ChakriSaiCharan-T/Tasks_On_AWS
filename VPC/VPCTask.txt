@@ -1,0 +1,36 @@
+Task 01
+1) Create VPC with 2 private and 2 public subnets.
+2) Enable DNS Hostname in VPC
+3) Enable Auto Assign Public ip in 2 public subnets
+4) Add 2 private subnets in private route table
+5) Add 2 public subnets in public route table
+6) Public route table will have the routes to internet and local
+7) Create Ec2 in public subnet with t2micro and install php
+8) COnfigure Nat gateway in public subnet and connect to private Instance
+9) Install Apache Tomcat in private ec2 and deploy a sample app.
+10) COnfigure VPC flow logs and store the logs in s3 and cloudwatch.
+
+Task02
+
+1) Create one VPC,with 1 one public subnet and 1 private subnet.
+2) Enable VPC peering for cross region.
+3) Enable VPC peering for cross account. (You can collaborate with your friend and do this task).
+4) Setup VPC Transist gateway.
+5) Setup VPC End Point.
+
+Task03
+
+Use Case: Setting up Transit Gateway and VPC Endpoints for a Multi-VPC Architecture
+Scenario:
+A large organization is migrating its on-premises infrastructure to the AWS cloud.
+The organization's architecture involves multiple VPCs for different departments and applications,
+each requiring secure communication with centralized services and external resources.
+The IT team needs to design and implement a scalable and efficient network architecture to accommodate
+the organization's growth and ensure robust connectivity between VPCs and external services.
+Objectives:
+Design and deploy a scalable network architecture using AWS Transit Gateway to simplify network connectivity between multiple VPCs.
+Configure VPC endpoints to securely access AWS services without internet gateways or NAT gateways, ensuring data privacy and minimizing exposure to external threats.
+Note:
+Create 4 Vpc's in 4 different regions and setup transit gateway.
+Do not use default vpc's.
+Prepare Document with all the screenshot's and push to github repo and share the url.
