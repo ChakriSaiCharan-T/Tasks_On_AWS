@@ -1,0 +1,10 @@
+1) Create mariadb db on ec2.
+2) Insert some dummy data
+3) Take the backup of dummy data on ec2
+4) launch Mariadb RDS instance.
+5) Migrate database from ec2 to RDS.
+6) Install mysql db on ec2
+7) Launch mysql RDS image
+8) COnfigure multi AZ
+9) Take Backup of db and restore the DB
+10) Create ReadReplca
