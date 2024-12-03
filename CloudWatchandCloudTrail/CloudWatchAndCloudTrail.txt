@@ -1,0 +1,6 @@
+1) Enable cloudtrail monitoring and store the events in s3 and cloudwatch log events.
+2) Enable SNS for cloudtrial to send alert on email.
+3) Configure cloud watch monitoring and record the cpu utilization and other metrics of ec2.
+4) Create one alarm to send alert to email if the cpu utilization is more than 70 percent.
+5) Create Dashboard and monitor tomcat service wether it is running or not and send the alert.
+6) Create Dashboard and monitor nginx service to send the alert if nginx is not running.
