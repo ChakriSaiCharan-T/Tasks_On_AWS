@@ -1,0 +1,11 @@
+1) Install Terraform on your PC
+2) Execute all the templates shown in video.
+3) Note down below points,
+   Terraform Init
+   Terraform Plan
+   Terraform Apply
+   Terraform Provider.
+4) Integrate a sample Terraform template in jenkins.
+5) Watch the terraform-02 video.
+6) Execute all the templates shown in video.
+7) Integrate terraform in jenkins using Terraform plugin.
